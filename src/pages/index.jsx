@@ -1,10 +1,5 @@
 import Accueil from '@/components/Accueil';
 import Head from 'next/head';
-import Cv from './Cv';
-import Portfolio from './Portfolio';
-import Gestion from './project/Gestion';
-import Meetease from './project/Meetease';
-import Propos from './Propos';
 
 export default function Home(props) {
   const page = props.page;
